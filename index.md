@@ -1,2 +1,4 @@
-<h1 align="center"><a href="https://nikahmadz.github.io/dark-switch">Dark Switch</a></h1>
-<p align="center">Dark mode bookmarklet</p>
+<div style="margin:40vh auto">
+<h1 align="center"><a href="{{ site.github.url }}">{{ site.title }}</a></h1>
+<p align="center">{{ site.description }}</p>
+</div>
