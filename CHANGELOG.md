@@ -1,4 +1,4 @@
-[//]: # dark-switch
+<!-- dark-switch -->
 
 # Change log
 
