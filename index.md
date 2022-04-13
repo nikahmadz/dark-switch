@@ -6,11 +6,7 @@
 a=document.getElementsByName('color-scheme');
 if(a){e=a[0]}
 if(e){
-b=e.getAttribute('content');
-if(b=='light'){s=['dark','light']}
-else{s=['light','dark']}
-x=0;
-c=b||s[x];
+b=e.getAttribute('content');s=['dark','light'];x=(b=='dark')?1:0;
 w[i]=function(){e.setAttribute('content',s[x++]);if(x>s.length-1){x=0}}
 }
 })(window,'toggleTheme')</script>
