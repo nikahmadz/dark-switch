@@ -2,7 +2,12 @@
 ---
 <style>
 #_main { font-family:sans-serif }
-#_credit { font-size:.83rem }
+#_credit {
+font-size:.83rem;
+right: 50%;
+transform: translateX(calc(50% - 1.2em));
+bottom: 2rem;
+}
 #the-switch {
 font-size: 1.5rem;
 padding: 0.25em 1em;
