@@ -16,4 +16,4 @@ position: relative; top: -20vh;
 {% include hero/1.html %}
 
 <script src="{{ site.github.url }}/assets/js/switch-v0.0.1.js"></script>
-<p align="center"><button id="the-switch" onclick="flickSwitch()" title="Toggle Color Scheme (Light/Dark)">Try me</button></p>
+<p align="center"><button id="the-switch" onclick="flickSwitch()" title="Toggle mode (Light/Dark)">Try me</button></p>
