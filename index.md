@@ -9,7 +9,7 @@ padding: 0.25em 1em;
 border-radius: 1em;
 background-color: black;
 color: white;
-box-shadow: 2px 5px 5px black;
+box-shadow: 2px 5px 5px #00000070;
 position: relative; top: -20vh;
 }
 </style>
