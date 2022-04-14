@@ -15,8 +15,7 @@ Some website does not support dark mode or use a single theme while neglecting t
 
 ## Contribute
 
-Have great ideas to talk about or just wanna chat ? ..
-Lets [discuss][] about it.
+Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.  
 Found bugs ? file an [issue][].
 
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"

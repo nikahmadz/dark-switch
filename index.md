@@ -48,10 +48,10 @@ You may also create new bookmark containing the following script.
 
 ## Contribute
 
-Have great ideas to talk about or just wanna chat ? ..
-Lets [discuss][] about it.
-Found bugs ? file an [issue][].
+Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.  
+Found bugs ? file an [issue][]. Follow this project on [GitHub][github].
 
+[github]: https://github.com/nikahmadz/dark-switch/ "Follow this project"
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
 [issue]: https://github.com/nikahmadz/dark-switch/issues "Go to Issues"
 
