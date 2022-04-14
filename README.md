@@ -13,9 +13,11 @@ Some website does not support dark mode or use a single theme while neglecting t
 
 > **[Visit website](https://nikahmadz.github.io/dark-switch) for demo**
 
-## Found bug ?
+## Contribute
 
-Lets [discuss][] about it or file an [issue][].
+Have great ideas to talk about or just wanna chat ? ..
+Lets [discuss][] about it.
+Found bugs ? file an [issue][].
 
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
 [issue]: https://github.com/nikahmadz/dark-switch/issues "Go to Issues"
