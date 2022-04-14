@@ -4,9 +4,8 @@
 #_main { font-family:sans-serif }
 #_credit {
 font-size:.83rem;
-right: 50%;
-transform: translateX(calc(50% - 1.2em));
-bottom: 2rem;
+position:relative;
+text-align:right;
 }
 #the-switch {
 font-size: 1.5rem;
@@ -15,8 +14,9 @@ border-radius: 1em;
 background-color: black;
 color: white;
 box-shadow: 2px 5px 5px #00000070;
-position: relative; top: -20vh;
+position: relative; top: -18vh;
 }
+.hero-1 { margin:20vh auto 26vh auto }
 </style>
 {% include hero/1.html %}
 
