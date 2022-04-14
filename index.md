@@ -5,9 +5,6 @@
 a { color:#47b;text-decoration:none }
 a:hover { text-decoration:underline;text-underline-offset:.1em }
 hr { border-color:grey }
-h2,h3,h4,h5,h6 { margin-top:2rem }
-#_main { font-family:sans-serif }
-#_layout { max-width:600px;margin:auto }
 #_article { margin-bottom:4rem }
 #_credit {
 font-size:.83rem;
@@ -67,5 +64,7 @@ Lets [discuss][] about it or file an [issue][].
 
 [MIT]: https://github.com/nikahmadz/central/blob/main/LICENSE "View license"
 [nikahmadz]: https://nikahmadz.github.io "Visit my website"
+
+&nbsp;
 
 ***
