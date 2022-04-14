@@ -12,28 +12,29 @@ font-size:.83rem;
 position:relative;
 text-align:right;
 }
-.the-switch {
+.darkswitch {
 border: 0.2em outset #47b;
 padding: 0.6em 1em;
-font-size: 1.3rem;
 border-radius: 2em;
 text-decoration: none;
 box-shadow: 2px 5px 5px #00000070;
-position: relative; top: -18vh;
 }
 .hero-1 { margin:20vh auto 26vh auto }
 </style>
-{% include hero/1.html %}
-
+<div class="hero-1">
+<h1 align="center" class="-title">
+<a href="{{ site.github.repository_url }}">Dark Switch</a>
+</h1>
+<p align="center" class="-desc">{{ site.description }}</p>
+</div>
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
-<p align="center"><button class="the-switch" onclick="darkswitch()">Try Me</button></p>
-<p align="center"><a class="the-switch" href="{% include darkswitch.js %}">Bookmark Me</a></p>
 
 ***
 
-## Usage
-
-Drag the above **Try Me** button to your bookmark or create a new bookmark containing the following script.
+Some website doesn't support dark mode while some may use dark theme but neglect light.
+The **Dark Switch** button can force website to render your desired background.
+Save or drag the **Dark Switch** button to your bookmark.
+You may also create new bookmark containing the following script.
 
 ```js
 {% include darkswitch.js %}
