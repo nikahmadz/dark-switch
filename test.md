@@ -16,11 +16,12 @@ text-align:right;
 margin:2rem 0;
 }
 .darkswitch {
-border: 0.2em outset #47b;
-padding: 0.6em 1em;
-border-radius: 2em;
-text-decoration: none;
-box-shadow: 2px 5px 5px #00000070;
+display:inline-block;
+border:.2em outset #47b;
+padding:.6em 1em;
+border-radius:2em;
+text-decoration:none !important;
+box-shadow:2px 5px 5px #00000070;
 }
 .hero-1 { margin:20vh auto 26vh auto }
 </style>
@@ -34,7 +35,7 @@ box-shadow: 2px 5px 5px #00000070;
 
 ***
 
-Some website doesn't support dark mode while some may use dark theme but neglect light.
+Some website does not support switching between dark and light theme.
 The **Dark Switch** button can force website to render your desired background.
 Save or drag the **Dark Switch** button to your bookmark.
 You may also create new bookmark containing the following script.
