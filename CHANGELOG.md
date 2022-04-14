@@ -4,3 +4,4 @@
 
 ## v0.1.0
 - initial script and demo button
+- fixed and tested
