@@ -1,6 +1,8 @@
 ---
 ---
 <style>
+hr { border-color:grey }
+.hero-1 .-title a,
 a { color:#47b;text-decoration:none }
 a:hover { text-decoration:underline;text-underline-offset:.1em }
 #_main { font-family:sans-serif }
@@ -10,12 +12,12 @@ font-size:.83rem;
 position:relative;
 text-align:right;
 }
-#the-switch {
-font-size: 1.5rem;
-padding: 0.25em 1em;
-border-radius: 1em;
-background-color: black;
-color: white;
+.the-switch {
+border: 0.2em outset #47b;
+padding: 0.6em 1em;
+font-size: 1.3rem;
+border-radius: 2em;
+text-decoration: none;
 box-shadow: 2px 5px 5px #00000070;
 position: relative; top: -18vh;
 }
@@ -24,8 +26,8 @@ position: relative; top: -18vh;
 {% include hero/1.html %}
 
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
-<p align="center"><button id="the-switch" onclick="darkswitch()">Try Me</button></p>
-<p align="center"><a href="{% include darkswitch.js %}">Bookmark Me</a></p>
+<p align="center"><button class="the-switch" onclick="darkswitch()">Try Me</button></p>
+<p align="center"><a class="the-switch" href="{% include darkswitch.js %}">Bookmark Me</a></p>
 
 ***
 
