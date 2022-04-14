@@ -1,6 +1,7 @@
 ---
 ---
 <style>
+a { color:#47b }
 #_main { font-family:sans-serif }
 #_layout { max-width:600px;margin:auto }
 #_credit {
