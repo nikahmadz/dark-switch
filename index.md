@@ -20,5 +20,5 @@ position: relative; top: -20vh;
 </style>
 {% include hero/1.html %}
 
-<script src="{{ site.github.url }}/assets/js/switch-v0.1.0.js"></script>
+<script src="{{ site.github.url }}/assets/js/switch-v0.1.0.js?v={{ site.github.build_revision }}"></script>
 <p align="center"><button id="the-switch" onclick="darkswitch()">Try me</button></p>
