@@ -5,11 +5,9 @@
 
 ***
 
-Some website does not support dark mode or use a single theme while neglecting the other. The **Dark Switch** button can force website to choose your desired background. Allowing you to switch between dark and light theme. Create new bookmark containing the following script.
+Some website does not support dark mode or use a single theme while neglecting the other. The **Dark Switch** button can force website to choose your desired background. Allowing you to switch between dark and light theme.
 
-```js
-{% include darkswitch.js %}
-```
+> **[Visit website](https://nikahmadz.github.io/dark-switch)**
 
 ## Found bug ?
 
