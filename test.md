@@ -48,8 +48,9 @@ You may also create new bookmark containing the following script.
 
 ## Contribute
 
-Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.  
-Found bugs ? file an [issue][]. Follow this project on [GitHub][github].
+Follow this project on [GitHub][github].
+Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.
+Found bugs ? file an [issue][].
 
 [github]: https://github.com/nikahmadz/dark-switch/ "Follow this project"
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
@@ -65,7 +66,7 @@ Found bugs ? file an [issue][]. Follow this project on [GitHub][github].
 
 [MIT][] licensed - [nikahmadz][]
 
-[MIT]: https://github.com/nikahmadz/central/blob/main/LICENSE "View license"
+[MIT]: https://github.com/nikahmadz/dark-switch/blob/main/LICENSE "View license"
 [nikahmadz]: https://nikahmadz.github.io "Visit my website"
 
 &nbsp;

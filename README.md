@@ -31,5 +31,5 @@ Found bugs ? file an [issue][].
 
 [MIT][] licensed - [nikahmadz][]
 
-[MIT]: https://github.com/nikahmadz/central/blob/main/LICENSE "View license"
+[MIT]: https://github.com/nikahmadz/dark-switch/blob/main/LICENSE "View license"
 [nikahmadz]: https://nikahmadz.github.io "Visit my website"
