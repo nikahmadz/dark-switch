@@ -1,7 +1,8 @@
 ---
 ---
 <style>
-a { color:#47b }
+a { color:#47b;text-decoration:none }
+a:hover { text-decoration:underline;text-underline-offset:.1em }
 #_main { font-family:sans-serif }
 #_layout { max-width:600px;margin:auto }
 #_credit {
