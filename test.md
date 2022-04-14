@@ -23,8 +23,9 @@ position: relative; top: -18vh;
 </style>
 {% include hero/1.html %}
 
-<script src="{{ site.github.url }}/assets/js/switch-v0.1.0.js?v={{ site.github.build_revision }}"></script>
+<script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
 <p align="center"><button id="the-switch" onclick="darkswitch()">Try Me</button></p>
+<p align="center"><a href="{% include darkswitch.js %}">Bookmark Me</a></p>
 
 ***
 
@@ -33,7 +34,7 @@ position: relative; top: -18vh;
 Drag the above **Try Me** button to your bookmark or create a new bookmark containing the following script.
 
 ```js
-javascript:(()=>{a=['light','dark'];d=document;d.querySelectorAll('html,body,body *:not(noscript,script,style,link,hr,br,mark,input,select,meter,progress)').forEach(e=>{t=e.tagName;s='initial';if(/^a$|abbr$/i.test(t)){s='#47b'}e.style=(e.getAttribute('style')||'')+';background:unset;color:'+s});e=d.getElementsByName(n='color-scheme')[0];m=matchMedia;if(!e){e=d.createElement('meta');e.name=n;d.head.appendChild(e)}s=a.indexOf(c=e.content);x=s<0?c?m&&m('(prefers-'+n+':dark)').matches?1:0:0:s;e.content=a[x=++x>1?0:x]})()
+{% include darkswitch.js %}
 ```
 
 ## Found bug ?
