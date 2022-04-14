@@ -36,7 +36,7 @@ javascript:(()=>{a=['light','dark'];d=document;d.querySelectorAll('html,body,bod
 
 ## Found bug ?
 
-Lets [discuss][] about it or file an [issue][]
+Lets [discuss][] about it or file an [issue][].
 
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
 [issue]: https://github.com/nikahmadz/dark-switch/issues "Go to Issues"
