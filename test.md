@@ -39,6 +39,7 @@ You may also create new bookmark containing the following script.
 ```js
 {% include darkswitch.js %}
 ```
+{: .normal-wrap }
 
 ## Found bug ?
 
