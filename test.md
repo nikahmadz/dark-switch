@@ -1,16 +1,19 @@
 ---
 ---
 <style>
-hr { border-color:grey }
 .hero-1 .-title a,
 a { color:#47b;text-decoration:none }
 a:hover { text-decoration:underline;text-underline-offset:.1em }
+hr { border-color:grey }
+h2,h3,h4,h5,h6 { margin-top:2rem }
 #_main { font-family:sans-serif }
 #_layout { max-width:600px;margin:auto }
+#_article { margin-bottom:4rem }
 #_credit {
 font-size:.83rem;
 position:relative;
 text-align:right;
+margin:2rem 0;
 }
 .darkswitch {
 border: 0.2em outset #47b;
