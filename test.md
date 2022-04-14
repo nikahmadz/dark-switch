@@ -23,6 +23,7 @@ border-radius:2em;
 text-decoration:none !important;
 box-shadow:2px 5px 5px #00000070;
 }
+.darkswitch:active { border-style:inset }
 .hero-1 { margin:20vh auto 26vh auto }
 </style>
 <div class="hero-1">
@@ -35,9 +36,10 @@ box-shadow:2px 5px 5px #00000070;
 
 ***
 
-Some website does not support switching between dark and light theme.
-The **Dark Switch** button can force website to render your desired background.
-Save or drag the **Dark Switch** button to your bookmark.
+Some website does not support dark mode or use a single theme while neglecting the other.
+The **Dark Switch** button can force website to choose your desired background.
+Allowing you to switch between dark and light theme.
+Save or drag the **Dark Switch** button (above) to your bookmark.
 You may also create new bookmark containing the following script.
 {: .justify-text }
 
@@ -65,3 +67,5 @@ Lets [discuss][] about it or file an [issue][].
 
 [MIT]: https://github.com/nikahmadz/central/blob/main/LICENSE "View license"
 [nikahmadz]: https://nikahmadz.github.io "Visit my website"
+
+***
