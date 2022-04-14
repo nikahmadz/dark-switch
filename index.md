@@ -1,24 +1,71 @@
 ---
 ---
 <style>
+.hero-1 .-title a,
+a { color:#47b;text-decoration:none }
+a:hover { text-decoration:underline;text-underline-offset:.1em }
+hr { border-color:grey }
+h2,h3,h4,h5,h6 { margin-top:2rem }
 #_main { font-family:sans-serif }
+#_layout { max-width:600px;margin:auto }
+#_article { margin-bottom:4rem }
 #_credit {
 font-size:.83rem;
-right: 50%;
-transform: translateX(calc(50% - 1.2em));
-bottom: 2rem;
+position:relative;
+text-align:right;
+margin:2rem 0;
 }
-#the-switch {
-font-size: 1.5rem;
-padding: 0.25em 1em;
-border-radius: 1em;
-background-color: black;
-color: white;
-box-shadow: 2px 5px 5px #00000070;
-position: relative; top: -20vh;
+.darkswitch {
+display:inline-block;
+border:.2em outset #47b;
+padding:.6em 1em;
+border-radius:2em;
+text-decoration:none !important;
+box-shadow:2px 5px 5px #00000070;
 }
+.darkswitch:active { border-style:inset }
+.hero-1 { margin:20vh auto 26vh auto }
 </style>
-{% include hero/1.html %}
-
+<div class="hero-1">
+<h1 align="center" class="-title">
+<a class="darkswitch" href="{% include darkswitch.js %}">Dark Switch</a>
+</h1>
+<p align="center" class="-desc"><b>{{ site.description }}</b></p>
+</div>
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
-<p align="center"><button id="the-switch" onclick="darkswitch()">Try me</button></p>
+
+***
+
+Some website does not support dark mode or use a single theme while neglecting the other.
+The **Dark Switch** button can force website to choose your desired background.
+Allowing you to switch between dark and light theme.
+Save or drag the **Dark Switch** button (above) to your bookmark.
+You may also create new bookmark containing the following script.
+{: .justify-text }
+
+```js
+{% include darkswitch.js %}
+```
+{: .normal-wrap }
+
+## Found bug ?
+
+Lets [discuss][] about it or file an [issue][].
+
+[discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
+[issue]: https://github.com/nikahmadz/dark-switch/issues "Go to Issues"
+
+## Sponsor
+
+❤️ If you use this work and liked it, **please consider [supporting][pay]**.
+
+[pay]: https://nikahmadz.github.io/#!pay "See payment options"
+
+## License
+
+[MIT][] licensed - [nikahmadz][]
+
+[MIT]: https://github.com/nikahmadz/central/blob/main/LICENSE "View license"
+[nikahmadz]: https://nikahmadz.github.io "Visit my website"
+
+***

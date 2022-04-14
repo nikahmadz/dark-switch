@@ -30,7 +30,7 @@ box-shadow:2px 5px 5px #00000070;
 <h1 align="center" class="-title">
 <a class="darkswitch" href="{% include darkswitch.js %}">Dark Switch</a>
 </h1>
-<p align="center" class="-desc">{{ site.description }}</p>
+<p align="center" class="-desc"><b>{{ site.description }}</b></p>
 </div>
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
 
