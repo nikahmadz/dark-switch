@@ -2,6 +2,7 @@
 ---
 <style>
 #_main { font-family:sans-serif }
+#_layout { max-width:600px;margin:auto }
 #_credit {
 font-size:.83rem;
 position:relative;
@@ -42,7 +43,7 @@ Lets [discuss][] about it or file an [issue][]
 
 ## Sponsor
 
-❤️ If you use this work and liked it, **please consider [supporting my work][pay]**.
+❤️ If you use this work and liked it, **please consider [supporting][pay]**.
 
 [pay]: https://nikahmadz.github.io/#!pay "See payment options"
 
