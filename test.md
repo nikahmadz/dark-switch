@@ -23,7 +23,7 @@ box-shadow: 2px 5px 5px #00000070;
 </style>
 <div class="hero-1">
 <h1 align="center" class="-title">
-<a href="{{ site.github.repository_url }}">Dark Switch</a>
+<a class="darkswitch" href="{% include darkswitch.js %}">Dark Switch</a>
 </h1>
 <p align="center" class="-desc">{{ site.description }}</p>
 </div>
@@ -35,6 +35,7 @@ Some website doesn't support dark mode while some may use dark theme but neglect
 The **Dark Switch** button can force website to render your desired background.
 Save or drag the **Dark Switch** button to your bookmark.
 You may also create new bookmark containing the following script.
+{: .justify-text }
 
 ```js
 {% include darkswitch.js %}
