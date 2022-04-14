@@ -1,7 +1,7 @@
 /* (c) Copyright : github.com/nikahmadz  */
 darkswitch=()=>{
 a=['light','dark'];d=document;
-d.querySelectorAll('html,body,body *:not(noscript,script,style,link,hr,br,mark,input,select,meter,progress,pre *)')
+d.querySelectorAll('html,body,body *:not(noscript,script,style,link,hr,br,mark,input,select,meter,progress,p *,pre *)')
 .forEach(e=>{t=e.tagName;s='initial';
 if(/^a$|abbr$/i.test(t)){s='#47b'}
 e.style=(e.getAttribute('style')||'')+';background:unset;color:'+s
