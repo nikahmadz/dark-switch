@@ -31,11 +31,11 @@ A theme consist of 4 colors. `// default were used if not specified`
 {: .justify-text }
 
 ```js
-// theme   = [background,text,title,link]
+// theme   = [background,title,text,link]
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
-var blue   = ['#036','#68B','#ABC','#5A4'];
-var purple = ['#312','#B68','#D8C','#6CE'];
+var blue   = ['#036','#ABC','#68B','#5A4'];
+var purple = ['#312','#D8C','#B68','#6CE'];
 darkswitch( [dark,light,blue,purple] ); // cycle through themes
 darkswitch( [dark] ); // apply specific theme
 
@@ -43,8 +43,8 @@ darkswitch( [dark] ); // apply specific theme
 <script>
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
-var blue   = ['#036','#68B','#ABC','#5A4'];
-var purple = ['#312','#B68','#D8C','#6CE'];
+var blue   = ['#036','#ABC','#68B','#5A4'];
+var purple = ['#312','#D8C','#B68','#6CE'];
 </script>
 <p><b>Examples
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
