@@ -1,5 +1,5 @@
 ---
-version: v0.1.2
+version: v0.1.3
 ---
 <div class="hero-1">
 <h1 align="center" class="-title">
@@ -12,9 +12,8 @@ version: v0.1.2
 
 ***
 
-Some website does not support dark mode or use single theme while neglecting other modes.
-The **Dark Switch** button can force website to choose your desired background.
-Allowing you to switch between dark and light theme.
+Wishing for dark mode and other themes?
+The **Dark Switch** button can force any website to cycle through your desired theme.
 Save or drag the big **Dark Switch** button (you saw above) to your bookmark.
 You may also create new bookmark containing the following script.
 {: .justify-text }
