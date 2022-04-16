@@ -1,13 +1,12 @@
 ---
+version: v0.1.2
 ---
 <div class="hero-1">
 <h1 align="center" class="-title">
 <a class="darkswitch" href="{% include darkswitch.js %}">Dark Switch</a>
 </h1>
 <p align="center" class="-desc"><b>{{ site.description }}</b></p>
-{% if site.github.latest_release %}
-<div class="-verpos"><div class="-ver" align="center">{{ site.github.latest_release.name }}</div></div>
-{% endif %}
+<div class="-verpos"><div class="-ver" align="center">{{ page.version }}</div></div>
 </div>
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
 

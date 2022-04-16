@@ -2,6 +2,10 @@
 
 # Change log
 
+## v0.1.2
+- improve switch
+- improve theme capability
+
 ## v0.1.1
 - improve switch
 - add theme capability
