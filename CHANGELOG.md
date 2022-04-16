@@ -2,6 +2,10 @@
 
 # Change log
 
+## v0.2.0
+- change meta cycle to theme cycle
+- improve theming capability
+
 ## v0.1.2
 - improve switch
 - improve theme capability

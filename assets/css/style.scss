@@ -5,6 +5,9 @@ a {
   &:hover { text-decoration:underline;text-underline-offset:.1em }
 }
 
+p { color:grey }
+b,strong { color:initial }
+
 hr { border:1px solid grey }
 
 #_article { margin-bottom:4rem }

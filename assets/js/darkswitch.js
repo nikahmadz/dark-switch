@@ -2,7 +2,7 @@
 darkswitch=(a=[['#222','#DDD'],['#DDD','#222']])=>{
 d=document;
 x=d.$ds||0;
-c=a[x>=a.length?0:x];
+c=a[x=x>=a.length?0:x];
 b=c[0]||'0';
 p=c[2]||'grey';
 h=c[1]||p;
