@@ -1,0 +1,33 @@
+a {
+  color:#47B;text-decoration:none;
+  &:hover { text-decoration:underline;text-underline-offset:.1em }
+}
+
+hr { border:1px solid grey }
+
+#_article { margin-bottom:4rem }
+
+#_credit {
+  font-size:.83rem;
+  position:relative;
+  text-align:right;
+  margin:2rem 0;
+}
+
+.darkswitch {
+  display:inline-block;
+  border:.2em outset #47B;
+  padding:.6em 1em;
+  border-radius:2em;
+  text-decoration:none !important;
+  box-shadow:2px 5px 5px #00000070;
+  &:active { border-style:inset }
+}
+
+.hero-1 {
+  margin:20vh auto;
+  .-title a { color:#47B }
+  .-desc { letter-spacing:6px }
+  .-verpos { position:relative }
+  .-ver { position:absolute;width:100%;top:1em;font-size:.9em;color:grey }
+}
