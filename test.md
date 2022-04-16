@@ -14,7 +14,7 @@ version: v0.2
 
 <p align="center"><b>Wishing for dark mode and other themes?</b></p>
 
-The **Dark Switch** button can force any website to cycle through your desired theme.
+**Dark Switch** button can force any website to cycle through your desired theme.
 Save or drag the big **Dark Switch** button (you saw above) to your bookmark.
 You may also create new bookmark containing the following script.
 {: .justify-text }
@@ -26,7 +26,7 @@ You may also create new bookmark containing the following script.
 
 ## Customize themes
 
-You can customize themes that you want **Dark Switch** to apply. Each theme consist of 4 colors. `// default if not specified`
+You can customize what you want **Dark Switch** to apply. Each theme consist of 4 colors. `// default were used if not specified`
 {: .justify-text }
 
 ```js
@@ -40,9 +40,9 @@ darkswitch( [dark] ); // apply specific theme
 ```
 
 <p align="center"><b>Example
-&middot; <a onclick="darkswitch(['#222','#DDD'])">Dark</a>
-&middot; <a onclick="darkswitch(['#DDD','#222'])">Light</a>
-&middot; <a onclick="darkswitch(['#036','#68B','#ABC','#3C1'])">Blue</a></b></p>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#222','#DDD'])">Dark</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#DDD','#222'])">Light</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#036','#68B','#ABC','#3C1'])">Blue</a></b></p>
 
 ## Contribute
 

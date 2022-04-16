@@ -9,8 +9,8 @@
 
 ***
 
-Wishing for dark mode and other themes?</p>
-The **Dark Switch** button can force any website to cycle through your desired theme.
+Wishing for dark mode and other themes?
+**Dark Switch** can force any website to cycle through your desired theme.
 
 > **[Visit website](https://nikahmadz.github.io/dark-switch) for demo**
 

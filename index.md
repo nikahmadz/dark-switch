@@ -14,7 +14,7 @@ version: v0.2
 
 <p align="center"><b>Wishing for dark mode and other themes?</b></p>
 
-The **Dark Switch** button can force any website to cycle through your desired theme.
+**Dark Switch** button can force any website to cycle through your desired theme.
 Save or drag the big **Dark Switch** button (you saw above) to your bookmark.
 You may also create new bookmark containing the following script.
 {: .justify-text }
