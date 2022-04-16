@@ -26,23 +26,32 @@ You may also create new bookmark containing the following script.
 
 ## Customize themes
 
-You can customize what you want **Dark Switch** to apply. Each theme consist of 4 colors. `// default were used if not specified`
+You can customize what you want **Dark Switch** to apply.
+A theme consist of 4 colors. `// default were used if not specified`
 {: .justify-text }
 
 ```js
 // theme   = [background,text,title,link]
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
-var blue   = ['#036','#68B','#ABC','#3C1'];
-darkswitch( [dark,light,blue] ); // cycle through themes
+var blue   = ['#036','#68B','#ABC','#5A4'];
+var purple = ['#312','#B68','#D8C','#6CE'];
+darkswitch( [dark,light,blue,purple] ); // cycle through themes
 darkswitch( [dark] ); // apply specific theme
 
 ```
-
-<p align="center"><b>Example
-&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#222','#DDD'])">Dark</a>
-&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#DDD','#222'])">Light</a>
-&middot; <a href="#" onclick="event.preventDefault();darkswitch(['#036','#68B','#ABC','#3C1'])">Blue</a></b></p>
+<script>
+var dark   = ['#222','#DDD'];
+var light  = ['#DDD','#222'];
+var blue   = ['#036','#68B','#ABC','#5A4'];
+var purple = ['#312','#B68','#D8C','#6CE'];
+</script>
+<p><b>Examples
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([light])">Light</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([blue])">Blue</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([purple])">Purple</a>
+</b></p>
 
 ## Contribute
 

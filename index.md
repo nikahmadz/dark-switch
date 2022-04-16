@@ -24,11 +24,41 @@ You may also create new bookmark containing the following script.
 ```
 {: .normal-wrap }
 
+## Customize themes
+
+You can customize what you want **Dark Switch** to apply.
+A theme consist of 4 colors. `// default were used if not specified`
+{: .justify-text }
+
+```js
+// theme   = [background,text,title,link]
+var dark   = ['#222','#DDD'];
+var light  = ['#DDD','#222'];
+var blue   = ['#036','#68B','#ABC','#5A4'];
+var purple = ['#312','#B68','#D8C','#6CE'];
+darkswitch( [dark,light,blue,purple] ); // cycle through themes
+darkswitch( [dark] ); // apply specific theme
+
+```
+<script>
+var dark   = ['#222','#DDD'];
+var light  = ['#DDD','#222'];
+var blue   = ['#036','#68B','#ABC','#5A4'];
+var purple = ['#312','#B68','#D8C','#6CE'];
+</script>
+<p><b>Examples
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([light])">Light</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([blue])">Blue</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([purple])">Purple</a>
+</b></p>
+
 ## Contribute
 
 Follow this project on [GitHub][github].
 Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.
 Found bugs ? file an [issue][].
+{: .justify-text }
 
 [github]: https://github.com/nikahmadz/dark-switch/ "Follow this project"
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
