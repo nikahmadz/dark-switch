@@ -5,7 +5,9 @@
 <a class="darkswitch" href="{% include darkswitch.js %}">Dark Switch</a>
 </h1>
 <p align="center" class="-desc"><b>{{ site.description }}</b></p>
-<div class="-verpos"><div class="-ver">{{ site.github.latest_release.name }}</div></div>
+{% if site.github.latest_release %}
+<div class="-verpos"><div class="-ver" align="center">{{ site.github.latest_release.name }}</div></div>
+{% endif %}
 </div>
 <script src="{{ site.github.url }}/assets/js/darkswitch.js?v={{ site.github.build_revision }}"></script>
 
