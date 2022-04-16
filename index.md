@@ -31,7 +31,7 @@ A theme consist of 4 colors. `// default were used if not specified`
 {: .justify-text }
 
 ```js
-// theme   = [background,title,text,link]
+// theme   = [background,text,paragraph,link]
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
 var blue   = ['#036','#ABC','#68B','#5A4'];
