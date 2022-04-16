@@ -12,7 +12,8 @@ version: v0.2
 
 ***
 
-Wishing for dark mode and other themes?
+<p align="center"><b>Wishing for dark mode and other themes?</b></p>
+
 The **Dark Switch** button can force any website to cycle through your desired theme.
 Save or drag the big **Dark Switch** button (you saw above) to your bookmark.
 You may also create new bookmark containing the following script.
@@ -23,11 +24,32 @@ You may also create new bookmark containing the following script.
 ```
 {: .normal-wrap }
 
+## Customize themes
+
+You can customize themes that you want **Dark Switch** to apply. Each theme consist of 4 colors. `// default if not specified`
+{: .justify-text }
+
+```js
+// theme   = [background,text,title,link]
+var dark   = ['#222','#DDD'];
+var light  = ['#DDD','#222'];
+var blue   = ['#036','#68B','#ABC','#3C1'];
+darkswitch( [dark,light,blue] ); // cycle through themes
+darkswitch( [dark] ); // apply specific theme
+
+```
+
+<p align="center"><b>Example
+&middot; <a onclick="darkswitch(['#222','#DDD'])">Dark</a>
+&middot; <a onclick="darkswitch(['#DDD','#222'])">Light</a>
+&middot; <a onclick="darkswitch(['#036','#68B','#ABC','#3C1'])">Blue</a></b></p>
+
 ## Contribute
 
 Follow this project on [GitHub][github].
 Have great ideas to talk about or just wanna chat ? .. Lets [discuss][] about it.
 Found bugs ? file an [issue][].
+{: .justify-text }
 
 [github]: https://github.com/nikahmadz/dark-switch/ "Follow this project"
 [discuss]: https://github.com/nikahmadz/dark-switch/discussions "Go to Discussions"
