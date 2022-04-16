@@ -4,7 +4,7 @@
 
 ## v0.1.1
 - improve switch
-- add new theme
+- add theme capability
 
 ## v0.1.0
 - initial script and demo button
