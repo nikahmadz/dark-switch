@@ -9,7 +9,7 @@
 
 ***
 
-Some website does not support dark mode or use a single theme while neglecting the other. The **Dark Switch** button can force website to choose your desired background. Allowing you to switch between dark and light theme.
+Some website does not support dark mode or use single theme while neglecting other modes. The **Dark Switch** button can force website to choose your desired background. Allowing you to switch between dark and light theme.
 
 > **[Visit website](https://nikahmadz.github.io/dark-switch) for demo**
 
