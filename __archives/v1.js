@@ -1,5 +1,24 @@
 /* (c) Copyright : github.com/nikahmadz  */
 
+/* v0.2.1 = highest compatibility, theme cycler, short & agile, fixed */
+javascript:(a=>{d=document;x=d.$ds||0;c=a[x=x>=a.length?0:x];b=c[0]||'0';p=c[2]||'grey';h=c[1]||p;i=c[3]||'#47B';d.querySelectorAll('html,body,body *:not(noscript,script,style,link,br,hr,mark,i,svg,input,select,meter,progress,pre *)').forEach(e=>{t=e.tagName;C=r=>r.test(t);e.style.background=t=='HTML'?b:'inherit';e.style.color=C(/^A$|BUTTON$/)?i:C(/^P(RE)?$/)?p:h});d.$ds=++x})([['#222','#DDD'],['#DDD','#222']])
+
+(a=>{
+d=document;
+x=d.$ds||0;
+c=a[x=x>=a.length?0:x];
+b=c[0]||'0';
+p=c[2]||'grey';
+h=c[1]||p;
+i=c[3]||'#47B';
+d.querySelectorAll('html,body,body *:not(noscript,script,style,link,br,hr,mark,i,svg,input,select,meter,progress,pre *)')
+.forEach(e=>{
+t=e.tagName;C=r=>r.test(t);
+e.style.background=t=='HTML'?b:'inherit';
+e.style.color=C(/^A$|BUTTON$/)?i:C(/^P(RE)?$/)?p:h
+});d.$ds=++x
+})([['#222','#DDD'],['#DDD','#222']])
+
 /* v0.2 = highest compatibility, theme cycler, short & agile */
 javascript:(a=>{d=document;x=d.$ds||0;c=a[x=x>=a.length?0:x];b=c[0]||'0';p=c[2]||'grey';h=c[1]||p;i=c[3]||'#47B';d.querySelectorAll('html,body,body *:not(noscript,script,style,link,br,hr,mark,i,svg,input,select,meter,progress,pre *)').forEach(e=>{t=e.tagName;C=r=>r.test(t);e.style.background=t=='HTML'?b:'0';e.style.color=C(/^A$|BUTTON$/)?i:C(/^P(RE)?$/)?p:h});d.$ds=++x})([['#222','#DDD'],['#DDD','#222']])
 

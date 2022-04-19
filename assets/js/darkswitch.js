@@ -10,7 +10,7 @@ i=c[3]||'#47B';
 d.querySelectorAll('html,body,body *:not(noscript,script,style,link,br,hr,mark,i,svg,input,select,meter,progress,pre *)')
 .forEach(e=>{
 t=e.tagName;C=r=>r.test(t);
-e.style.background=t=='HTML'?b:'0';
+e.style.background=t=='HTML'?b:'inherit';
 e.style.color=C(/^A$|BUTTON$/)?i:C(/^P(RE)?$/)?p:h
 });d.$ds=++x
 }
