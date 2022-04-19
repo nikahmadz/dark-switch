@@ -1,5 +1,5 @@
 ---
-version: v0.2.2
+version: v0.2.3
 ---
 <div class="hero-1">
 <h1 align="center" class="-title">
@@ -35,7 +35,7 @@ A theme consist of 4 colors. `// default were used if not specified`
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
 var blue   = ['#036','#ABC','#68B','#5A4'];
-var tan    = ['#281d15','#DA8','#975','#ED7'];
+var red    = ['#111','chocolate','grey','crimson'];
 darkswitch( [dark,light,blue,tan] ); // cycle through themes
 darkswitch( [dark] ); // apply specific theme
 
@@ -44,13 +44,15 @@ darkswitch( [dark] ); // apply specific theme
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
 var blue   = ['#036','#ABC','#68B','#5A4'];
-var tan    = ['#281d15','#DA8','#975','#ED7'];
+var tan    = ['#281D15','#EDC','#876','#E93'];
+var red    = ['#111','chocolate','grey','crimson'];
 </script>
 <p><b>Examples
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([light])">Light</a>
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([blue])">Blue</a>
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([tan])">Tan</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([red])">Red</a>
 </b></p>
 
 ## Contribute
