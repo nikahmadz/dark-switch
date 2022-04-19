@@ -35,7 +35,7 @@ A theme consist of 4 colors. `// default were used if not specified`
 var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
 var blue   = ['#036','#ABC','#68B','#5A4'];
-var red    = ['#111','chocolate','grey','crimson'];
+var red    = ['#111','tan','grey','#E22'];
 darkswitch( [dark,light,blue,tan] ); // cycle through themes
 darkswitch( [dark] ); // apply specific theme
 
@@ -45,7 +45,7 @@ var dark   = ['#222','#DDD'];
 var light  = ['#DDD','#222'];
 var blue   = ['#036','#ABC','#68B','#5A4'];
 var tan    = ['#281D15','#EDC','#876','#E93'];
-var red    = ['#111','chocolate','grey','crimson'];
+var red    = ['#111','tan','grey','#E22'];
 </script>
 <p><b>Examples
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
