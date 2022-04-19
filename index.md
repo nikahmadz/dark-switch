@@ -50,7 +50,7 @@ var tan    = ['#281d15','#DA8','#975','#ED7'];
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([dark])">Dark</a>
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([light])">Light</a>
 &middot; <a href="#" onclick="event.preventDefault();darkswitch([blue])">Blue</a>
-&middot; <a href="#" onclick="event.preventDefault();darkswitch([tan])">Purple</a>
+&middot; <a href="#" onclick="event.preventDefault();darkswitch([tan])">Tan</a>
 </b></p>
 
 ## Contribute
